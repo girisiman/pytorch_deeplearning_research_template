@@ -1,4 +1,4 @@
-# PyTorch Research Template
+# PyTorch Workshop @MBUST
 
 This repository was created for a **PyTorch workshop for AI/DS Graduate Students at MBUST, Chitlang**.
 
@@ -19,51 +19,37 @@ The goal of this template is to teach:
 
 ---
 
-## 📁 Project Structure
-config/ # Experiment configuration files (YAML)
-src/ # Core source code
-├── data/ # Dataset loading and preprocessing
-├── models/ # Neural network architectures
-├── training/ # Training and validation logic
-└── utils/ # Helper functions (logging, config, metrics)
-
-scripts/ # Entry point scripts (train, evaluate, predict)
-notebooks/ # Data exploration and visualization
-tests/ # Unit tests for code validation
-
-data/ # Raw and processed datasets (ignored in git)
-checkpoints/ # Saved models (ignored in git)
-outputs/ # Results, plots, predictions
-logs/ # Training logs
-
----
-
 ## 🚀 How to Run Training
 
 After setting up the environment, run training using:
 
 ```bash
 python scripts/train.py
+```
 
-⚙️ Configuration
+## ⚙️ Configuration
 
 All experiments are controlled via:
 
+```bash
 config/experiment.yaml
-📓 Notebooks
+```
+
+## 📓 Notebooks
 
 Used for:
-
-Data exploration
-Visualization
-Error analysis
-
+- Data exploration
+- Visualization
+- Error analysis
 (Not for training code)
 
-🔁 Reproducibility
-Fixed seeds
-YAML configs
-Modular design
-👨‍🏫 Workshop
+## 🔁 Reproducibility
+ - Fixed seeds
+ - YAML configs
+ - Modular design
 
-Created for AI/DS Graduate Students at MBUST, Chitlang.
+## 📦 Notes for Students
+- Do NOT write all code in one file
+- Do NOT hardcode hyperparameters & Always use configuration files
+- Keep training code separate from model code
+- Use notebooks only for analysis and visualization
