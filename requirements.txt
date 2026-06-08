@@ -1,0 +1,26 @@
+# Core PyTorch stack
+torch
+torchvision
+
+# Numerical + data handling
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+pyyaml
+tqdm
+
+# Machine learning utilities
+scikit-learn
+
+# Experiment tracking (optional but industry standard)
+tensorboard
+wandb
+
+# Notebook support (for VS Code / exploration)
+jupyter
+ipykernel

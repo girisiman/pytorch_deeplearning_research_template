@@ -1,0 +1,22 @@
+name: dl-workshop
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+      - torch
+      - torchvision
+      - numpy
+      - matplotlib
+      - pyyaml
+      - tqdm
+      - scikit-learn
+      - tensorboard
+      - wandb
+      - jupyter
+      - ipykernel

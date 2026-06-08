@@ -1,0 +1,29 @@
+# =====================
+# DATA CONFIG
+# =====================
+data:
+  train_dir: raw_data/FruitinAmazon/train
+  val_dir: raw_data/FruitinAmazon/val
+  image_size: 128
+  batch_size: 4
+
+# =====================
+# MODEL CONFIG
+# =====================
+model:
+  name: SimpleCNN
+
+# =====================
+# TRAINING CONFIG
+# =====================
+training:
+  epochs: 20
+  learning_rate: 0.001
+  patience: 3
+  device: cpu
+
+# =====================
+# EXPERIMENT CONFIG
+# =====================
+experiment:
+  name: baseline_yaml_run
