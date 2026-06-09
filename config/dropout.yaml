@@ -1,21 +1,29 @@
 # =====================
-# DEFAULT CONFIG (BASELINE FALLBACK)
+# DATA CONFIG
 # =====================
-
 data:
   train_dir: raw_data/FruitinAmazon/train
   val_dir: raw_data/FruitinAmazon/val
   image_size: 128
   batch_size: 4
 
+# =====================
+# MODEL CONFIG
+# =====================
 model:
-  name: baseline
+  name: dropout
 
+# =====================
+# TRAINING CONFIG
+# =====================
 training:
   epochs: 20
   learning_rate: 0.001
   patience: 3
   device: cpu
 
+# =====================
+# EXPERIMENT CONFIG
+# =====================
 experiment:
-  name: default_run
+  name: exp_dropout
